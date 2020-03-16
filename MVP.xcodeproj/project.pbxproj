@@ -18,6 +18,11 @@
 		AE83256F2417F62400D4C482 /* P2PDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83256D2417F62400D4C482 /* P2PDashboardViewController.swift */; };
 		AE8325702417F62400D4C482 /* P2PDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE83256E2417F62400D4C482 /* P2PDashboardViewController.xib */; };
 		AE8325732417F67C00D4C482 /* P2PCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8325722417F67C00D4C482 /* P2PCoordinator.swift */; };
+		AE832576241E1E7F00D4C482 /* P2PMarketPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832574241E1E7F00D4C482 /* P2PMarketPlaceViewController.swift */; };
+		AE832577241E1E7F00D4C482 /* P2PMarketPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE832575241E1E7F00D4C482 /* P2PMarketPlaceViewController.xib */; };
+		AE83257A241E1EB900D4C482 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832578241E1EB900D4C482 /* EducationViewController.swift */; };
+		AE83257B241E1EB900D4C482 /* EducationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE832579241E1EB900D4C482 /* EducationViewController.xib */; };
+		AE83257D241E1EE900D4C482 /* P2PTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83257C241E1EE900D4C482 /* P2PTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		AE83256D2417F62400D4C482 /* P2PDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PDashboardViewController.swift; sourceTree = "<group>"; };
 		AE83256E2417F62400D4C482 /* P2PDashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = P2PDashboardViewController.xib; sourceTree = "<group>"; };
 		AE8325722417F67C00D4C482 /* P2PCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PCoordinator.swift; sourceTree = "<group>"; };
+		AE832574241E1E7F00D4C482 /* P2PMarketPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PMarketPlaceViewController.swift; sourceTree = "<group>"; };
+		AE832575241E1E7F00D4C482 /* P2PMarketPlaceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = P2PMarketPlaceViewController.xib; sourceTree = "<group>"; };
+		AE832578241E1EB900D4C482 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		AE832579241E1EB900D4C482 /* EducationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationViewController.xib; sourceTree = "<group>"; };
+		AE83257C241E1EE900D4C482 /* P2PTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,11 @@
 				AE8325712417F66900D4C482 /* Coordinator */,
 				AE83256D2417F62400D4C482 /* P2PDashboardViewController.swift */,
 				AE83256E2417F62400D4C482 /* P2PDashboardViewController.xib */,
+				AE832574241E1E7F00D4C482 /* P2PMarketPlaceViewController.swift */,
+				AE832575241E1E7F00D4C482 /* P2PMarketPlaceViewController.xib */,
+				AE832578241E1EB900D4C482 /* EducationViewController.swift */,
+				AE832579241E1EB900D4C482 /* EducationViewController.xib */,
+				AE83257C241E1EE900D4C482 /* P2PTabBarController.swift */,
 			);
 			path = KoinP2P;
 			sourceTree = "<group>";
@@ -212,6 +227,8 @@
 				AE8325572417F57E00D4C482 /* LaunchScreen.storyboard in Resources */,
 				AE8325542417F57E00D4C482 /* Assets.xcassets in Resources */,
 				AE83254F2417F57A00D4C482 /* Main.storyboard in Resources */,
+				AE832577241E1E7F00D4C482 /* P2PMarketPlaceViewController.xib in Resources */,
+				AE83257B241E1EB900D4C482 /* EducationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,9 +248,12 @@
 			files = (
 				AE83254C2417F57A00D4C482 /* ViewController.swift in Sources */,
 				AE83256F2417F62400D4C482 /* P2PDashboardViewController.swift in Sources */,
+				AE832576241E1E7F00D4C482 /* P2PMarketPlaceViewController.swift in Sources */,
+				AE83257A241E1EB900D4C482 /* EducationViewController.swift in Sources */,
 				AE8325482417F57A00D4C482 /* AppDelegate.swift in Sources */,
 				AE8325732417F67C00D4C482 /* P2PCoordinator.swift in Sources */,
 				AE83254A2417F57A00D4C482 /* SceneDelegate.swift in Sources */,
+				AE83257D241E1EE900D4C482 /* P2PTabBarController.swift in Sources */,
 				AE8325522417F57A00D4C482 /* MVP.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

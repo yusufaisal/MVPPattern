@@ -11,6 +11,7 @@ import UIKit
 
 protocol Coordinator {
     func start()
+    func end()
 }
 
 class P2PDashboardViewCoordinator: Coordinator {
@@ -32,4 +33,28 @@ class P2PDashboardViewCoordinator: Coordinator {
         presenter.present(navigation, animated: true, completion: nil)
     }
     
+    func end() {
+        presenter.dismiss(animated: true, completion: nil)
+    }
+}
+
+class P2PTabbarCoordinator: Coordinator {
+    private var presenter: UINavigationController
+    private var tabbarController: P2PTabBarController?
+    
+    init(presenter: UINavigationController) {
+        self.presenter = presenter
+    }
+    
+    func start() {
+        let tabbarController = P2PTabBarController()
+        
+        self.tabbarController = tabbarController
+        presenter.modalPresentationStyle = .fullScreen
+        presenter.present(tabbarController, animated: true, completion: nil)
+    }
+    
+    func end() {
+        presenter.dismiss(animated: true, completion: nil)
+    }
 }

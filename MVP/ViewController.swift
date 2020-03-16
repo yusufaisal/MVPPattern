@@ -21,12 +21,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionKoinP2P(_ sender: Any) {
-        let dashboardViewCoordinator = P2PDashboardViewCoordinator(presenter: self.navigationController!.self)
-        dashboardViewCoordinator.start()
-//        let dashboardVC = P2PDashboardViewController()
-//        let nav = UINavigationController(rootViewController: dashboardVC)
-//        nav.title = "KoinP2P"
-//        self.navigationController?.present(nav, animated: true, completion: nil)
+        let p2pTabbarCoordinator = P2PTabbarCoordinator(presenter: self.navigationController!)
+        p2pTabbarCoordinator.start()
     }
     
 }
